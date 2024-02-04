@@ -1,0 +1,51 @@
+  body
+  {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right top, #ff87e9, #d380fa, #9782ff, #75acff, #52bdff);
+  }
+  #heading
+  {
+    width: 80%;
+    font-size: 22px;
+  }
+  #camera 
+  {
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    width: 350px;
+    height: 300px; 
+  }
+  #name_of_objects, #result_object_name  , #result_object_accuracy
+  {
+    color: rgb(255, 255, 255);
+    font-size:18px
+  }
+
+
+
+#object{
+  color:rgb(243, 237, 237);
+}
+
+#accuracy{
+  color:rgb(247, 238, 238);
+}
+
+#cover{
+  height:100%;
+  width:100%;
+  background-color: aquamarine;
+  position:fixed;
+  opacity: 0.7;
+  left:0px;
+  display:none;
+}
+
+#timer{
+  font-size:100px;
+  color:black;
+  position:fixed;
+  top:50%;
+  left:50%;
+}
